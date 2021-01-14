@@ -7,6 +7,11 @@ Image search engine using Python for bank payment slips of the TJSP
 - `server.py`: This script runs a web-server. You can send your query image to the server via a Flask web-interface. The server finds similar images to the query by a simple linear scan.
 - GPUs are not required.
 - Tested on Ubuntu 18.04 and WSL2 (Ubuntu 20.04)
+- OS: [e.g. Ubuntu 20.04. Note that this repo works on WSL, but may not work on a native Windows.]
+- Python version: [e.g. Python 3.7.6]
+- TensorFlow version: [e.g. TensorFlow 2.2.0. You can check it by python -c 'import tensorflow as tf; print(tf.__version__)']
+
+
 
 ## Usage
 ```bash
